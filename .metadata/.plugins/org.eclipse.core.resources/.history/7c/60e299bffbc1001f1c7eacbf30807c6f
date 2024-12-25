@@ -1,0 +1,18 @@
+package List;
+
+import java.util.ArrayList;
+
+public class ArrayLIst {
+	
+	
+	public static void main(String args[]) {
+		
+		ArrayList<String> al=new ArrayList<>();
+		al.add("Vamsi");
+		al.add("Pallavi");
+		al.add("Nani");
+		
+		System.out.println(al);
+	}
+
+}

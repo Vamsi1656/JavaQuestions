@@ -1,0 +1,16 @@
+package ExceptionHandling;
+
+public class ClassF extends ClassE {
+	
+	void m2() throws Exception{
+		
+		System.out.println("F class M3 Method");
+	}
+	
+	public static void main(String args[]) {
+		
+		ClassE e= new ClassF();
+		e.m3();
+	}
+
+}

@@ -1,0 +1,53 @@
+package List;
+
+import java.util.ArrayList;
+
+public class ArrayLIst {
+	
+	
+	public static void main(String args[]) {
+		
+		ArrayList al=new ArrayList<>();
+		al.add("Vamsi");
+		al.add(16);
+		al.add(0.5);
+		al.add("Vamsi");
+		al.add(16);
+		al.add(0.5);
+		System.out.println(al);
+		al.subList(1, 2);
+		System.out.println(al);
+		
+		ArrayList<Integer> a2=new ArrayList<>();
+		a2.add(12);
+		a2.add(13);
+		a2.add(14);
+		a2.add(12);
+		a2.add(13);
+		a2.add(14);
+		a2.forEach(System.out::println);
+//		System.out.println(a2);
+//		a2.removeAll(a2);
+//		a2.forEach(a);
+//		System.out.println(a2);
+		
+		ArrayList<Integer> a3=new ArrayList<>();
+		a3.add(12);
+		a3.add(13);
+		a3.add(14);
+		
+		System.out.println(a3);
+		
+		
+		a2.addAll(al);
+		System.out.println(al);
+		
+		a2.addAll(0, a3);
+		System.out.println(a2);
+		
+		
+
+	}
+	
+	
+}

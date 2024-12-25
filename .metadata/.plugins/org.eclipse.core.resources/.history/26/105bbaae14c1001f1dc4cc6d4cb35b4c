@@ -1,0 +1,10 @@
+package ExceptionHandling;
+
+public class ClassD  extends ClassC{
+	
+	void m2() throws ArithmeticException{
+		
+		System.out.println("D class M2 method");
+	}
+
+}
