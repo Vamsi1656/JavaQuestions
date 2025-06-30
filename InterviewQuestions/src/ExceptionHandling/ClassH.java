@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class ClassH extends ClassG {
 	
-	void m4(){
+	void m4()  throws IOException{
 		System.out.println("Hi");
 	}
 	

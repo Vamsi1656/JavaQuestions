@@ -16,8 +16,8 @@ public class PrimeNumbers {
 	
 	public static void main(String args[]) {
 		
-		int number=29;
-		System.out.println(isPrime(number));
+		int num=29;
+		System.out.println(isPrime(num));
 			
 	}
 

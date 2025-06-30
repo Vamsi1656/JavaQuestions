@@ -3,7 +3,7 @@ package ExceptionHandling;
 public class TestCustomException {
 	
 	
-	static void validate(int age) throws InvalidAgeException{
+	static void validate(int age) throws InvalidAgeException {
 		if(age<18) {
 			throw new InvalidAgeException("age is not valid");
 		}else {
@@ -11,9 +11,9 @@ public class TestCustomException {
 		}
 	}
 	
-	public static void main(String args[]) {
+	public static void main(String args[])throws InvalidAgeException {
 		try {
-			validate(14);
+			validate(20);
 		}
 		catch(InvalidAgeException ie) {
 			System.out.println("Caught the exception");
